@@ -1,0 +1,83 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../img/photo_2024-01-08_10-37-23.jpg);
+  background-size: cover;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.box {
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(aqua, red);
+  border-radius: 5px;
+  animation: card 10s infinite;
+  position: absolute;
+  top: 77px;
+  left: 65px;
+}
+
+@keyframes card {
+  0% {
+    top: 77px;
+    left: 65px;
+  }
+
+  10% {
+    top: 77px;
+    left: 330px;
+    background: linear-gradient(blue, purple);
+  }
+
+  20% {
+    top: 350px;
+    left: 330px;
+    background: linear-gradient(aqua, purple);
+  }
+
+  30% {
+    top: 350px;
+    left: 955px;
+    background: linear-gradient(red purple);
+  }
+
+  40% {
+    top: 480px;
+    left: 955px;
+    background: linear-gradient(aqua, green);
+  }
+  50%{
+    top: 480px;
+    left: 600px;
+    background: linear-gradient(aqua, blue);
+  }
+  60%{
+    top: 445px;
+    left: 600px;
+    background: linear-gradient(#f8183d, purple);
+  }
+  70%{
+    top: 440px;
+    left: 280px;
+    background: linear-gradient(aqua, #f8183d);
+  }
+  80%{
+    top: 330px;
+    left: 140px;
+    background: linear-gradient(#f8183d, blue);
+  }
+  90%{
+    top: 340px;
+    left: 60px;
+    background: linear-gradient(green, purple);
+  }
+
+}
